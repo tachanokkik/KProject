@@ -1,0 +1,65 @@
+html{
+	font-family: "Roboto", sans-serif;
+}
+header, main, footer {
+  padding-left: 300px;
+}
+body {
+	background-color: #E5E5E5;
+}
+nav {
+  background-color: red ;
+}
+a.brand-logo.left {
+  padding-left: 60px;
+  font-size: 20px;
+}
+a.waves-effect.waves-teal {
+	padding-right: 10px;
+}
+div.collection.help {
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	margin-bottom: 5px;
+}
+div#send.input-field.col.s11.right {
+	padding-left: 0px;
+	padding-right: 0;
+}
+i.circle {
+  font-style: normal;
+  font-weight: bold;
+}
+li#noti-bin {
+  background-color: #ddd;
+}
+span.title {
+  font-weight: bold;
+}
+ul.collection.help {
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+}
+ul#dropdown1.dropdown-content.active {
+	width: 240px !important;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	opacity: 1;
+	display: none;
+}
+.collection {
+  margin: 0;
+}
+.material-icons.blue-text {
+	margin-right: 20px;
+}
+@media only screen and (min-width:990px) and (max-width:1366px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+  body {
+ 	width: calc(100% - 300px);
+ 	float: right;
+  }
+}
