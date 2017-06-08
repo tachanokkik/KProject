@@ -1,0 +1,264 @@
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+header, main, footer {
+    padding-left: 300px;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+nav {
+    background-color: white;
+}
+
+a.brand-logo.left {
+	font-size: 20px;
+	margin-left: 60px;
+    color: black;
+}
+
+a.brand-logo2.left {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+a.iclear.left {
+    margin-left: 18px;
+    margin-right: 18px;
+    padding: 0px;
+}
+
+a.waves-effect.waves-light.event-item {
+	overflow: hidden;
+	background-color: #2196F3;
+	color: white;
+	border-radius: 3px;
+	padding-left: 3px;
+	width: 100%;
+	height: 21px;
+}
+
+a.waves-effect.waves-light.time-item {
+	background-color: #2196F3;
+	color: white;
+	border-radius: 3px;
+	padding: 8px 8px 8px 8px;
+    margin-bottom: 8px;
+	width: 100%;
+}
+
+a.waves-effect.waves-teal {
+	padding-left: 24px;
+}
+
+div.collection {
+	margin: 0;
+	padding: 0;
+}
+
+div.email-head {
+	padding-left: 24px;
+}
+
+div.collection.help {
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    margin-bottom: 5px;
+}
+
+div.sideNav-checkbox {
+	padding-left: 28px;
+}
+
+div.sideNav-head {
+	margin-top: 4px;
+	margin-bottom: -12px;
+}
+
+i.material-icons.cal-head {
+	float: left;
+    height: 48px;
+    line-height: 48px;
+    margin: 0 16px 0 0;
+    width: 44px;
+	color: rgba(0,0,0,0.54);
+	font-size: 44px;
+	align-items: center;
+}
+
+img.circle {
+	width: 40px;
+	height: 40px;
+	margin-top: 15px;
+	margin-right: 12px;
+}
+
+img#google-logo {
+	height: 40px;
+	padding-top: 14px;
+	margin-left: 22px;
+	margin-bottom: -8px;
+}
+
+label.lb-checkbox.black-text {
+	padding-left: 52px;
+}
+
+p.above-pic {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+span.calendar-head.grey-text {
+	font-size: 24px;
+	padding-left: 5px;
+}
+
+table.black-text>tbody>tr>td {
+	width: 14.285%;
+}
+
+table.grey-text>tbody>tr>td {
+	width: 12.5%;
+}
+
+table.bordered>thead>tr {
+	border-bottom: 1px solid #E5E5E5 ;
+}
+
+table.bordered>tbody>tr>td {
+	vertical-align: top;
+	padding-top: 5px;
+	width: 14.285%;
+}
+
+th {
+	padding-top: 6px;
+	padding-bottom: 1px;
+    height: 4%;
+}
+
+tbody>tr {
+	height: 100px;
+}
+
+tbody>tr.times {
+	height: 50px;
+}
+
+td>span.circle.blue {
+	padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+    font-weight: bold;
+}
+
+td.col.s10 {
+    margin-bottom: 30px;
+}
+
+td.col.s10.offset-s2 {
+    margin-top: 8px;
+}
+
+td.head-day {
+    color: #9e9e9e;
+    font-size: 12px;
+    padding-top: 0;
+    vertical-align: top;
+    text-align: center;
+}
+
+td.head-week {
+    color: #9e9e9e;
+    font-size: 8px;
+    padding-top: 0;
+    vertical-align: top;
+    text-align: center;
+}
+
+ul.collection.help {
+    border: none;
+}
+
+ul.collection.setting {
+    border: none;
+}
+
+ul#dropdown1.dropdown-content.active {
+    width: 240px !important;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    opacity: 1;
+    display: none;
+}
+
+.above-day.blue-text {
+    position: absolute;
+    margin: 4px 0 0 20px;
+    padding-left: 2px;
+    width: 30px;
+    background-color: white;
+}
+
+.collection {
+    margin: 0;
+}
+
+.collection.setting a.collection-item{
+	border: none;
+}
+
+.fixed-action-btn ul {
+	text-align: right;
+}
+
+.fixed-date {
+    height: 0;
+    margin-top: 0;
+    z-index: 100;
+}
+
+.material-icons.body-item {
+    margin-right: 20px;
+}
+
+.parallax-container {
+    height: 180px;
+}
+
+.row {
+    margin-bottom: 0;
+}
+
+.waves-effect.waves-light.btn{
+	background-color: white;
+	color: grey;
+	font-size: 10px;
+    padding: 5px 5px 5px 5px;
+    display: inline;
+}
+
+[type="checkbox"].filled-in:checked+label:after {
+	border-color: #03a9f4;
+    background-color: #03a9f4;
+}
+
+@media only screen and (min-width:990px) and (max-width:1366px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+    body {
+        width: calc(100% - 300px);
+        float: right;
+    }
+}
