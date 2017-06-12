@@ -1,0 +1,232 @@
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+header, main, footer {
+    padding-left: 280px;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+nav {
+    background-color: #2a56c6;
+}
+
+nav ul a {
+    padding: 0 10px;
+}
+
+a.brand-logo.left {
+	font-size: 22px;
+	margin-left: 60px;
+}
+
+div.collapsible-groups {
+	padding: 0;
+}
+
+div.sideNav-head {
+	margin-top: 4px;
+	margin-bottom: -12px;
+}
+
+i.material-icons.cal-head {
+	float: left;
+    height: 48px;
+    line-height: 48px;
+    margin: 0 16px 0 0;
+    width: 44px;
+	color: rgba(0,0,0,0.54);
+	font-size: 44px;
+	align-items: center;
+}
+
+img.circle {
+	width: 32px;
+	height: 32px;
+    vertical-align: middle;
+}
+
+img.circle-user {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+img#google-logo {
+	height: 40px;
+	padding-top: 14px;
+	margin-left: 22px;
+	margin-bottom: -8px;
+}
+
+span.calendar-head.grey-text {
+	font-size: 20px;
+	padding-left: 5px;
+}
+
+ul#dropdown1.dropdown-content.active {
+    width: 240px !important;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    opacity: 1;
+    display: none;
+}
+
+.collection {
+    margin: 0;
+}
+
+.collection.modalIn i.material-icons.modalIn {
+    width: 88px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left:0;
+}
+
+.collection.modalIn img{
+	height: 32px;
+	width: 88px;
+	margin-right: 10px;
+    vertical-align: middle;
+}
+.collection.modalIn a{
+    color: #424242;
+    font-size: 14.5px;
+    line-height: 32px;
+    max-width: 360px;
+    text-overflow: ellipsis;
+    margin: 0 20px;
+}
+.collection.modalIn i{
+	margin-right: 70px;
+	margin-left: 30px;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.collection.modalIn .collection-item{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.circle.modalIn {
+    height:60px;
+    width: 60px;
+    background-color: #3b78e7;
+    float: left;
+    margin-right: 24px;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+    color: black;
+}
+
+.input {
+    margin: 0;
+}
+
+.input-field {
+    margin: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.material-icons.body-item {
+    margin-right: 20px;
+}
+
+.modal .modal-content {
+    padding-bottom: 0;
+}
+
+.modal-detail-1 {
+    position: relative;
+    width: 100%;
+}
+
+.modal-detail-2 {
+    position: relative;
+    width: 100%;
+    display: table-cell;
+    table-layout: fixed;
+    padding: 25px;
+}
+
+.modal-detail-3 {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+
+/*.side-nav.fixed .collapsible-body */
+
+.side-nav.fixed .collapsible-header, .side-nav.fixed .collapsible-body{
+    padding: 0 32px;
+}
+
+.side-nav li>a>i.material-icons.head-sidenav {
+    margin: 0;
+    padding: 0 10px;
+    width: 44px;
+}
+
+[type="checkbox"].filled-in:checked+label:after {
+    border: 2px solid #4285f4;
+    background-color: #4285f4;
+}
+
+[type="radio"].with-gap:checked+label:after {
+    background-color: blue;
+}
+
+[type="radio"].with-gap:checked+label:before, [type="radio"].with-gap:checked+label:after {
+    border: 2px solid blue;
+}
+
+@media only screen and (min-width:990px) and (max-width:1366px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+    body {
+        width: calc(100% - 280px);
+        float: right;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:1366px){
+    div#modal-newlabel.modal.open {
+        width: 250px;
+    }
+    div#modal-in.modal.open {
+        width: 400px;
+    }
+    div#modal-out.modal.open {
+        width: 450px;
+    }
+    div#modal-print.modal.open {
+        width: 450px;
+    }
+    div#modal-cancel.modal.open {
+        width: 500px;
+    }
+    div#modal-setting.modal.open {
+        width: 365px;
+    }
+    div#modal-feedback.modal.open {
+        width: 360px;
+    }
+    div#modal-help.modal.bottom-sheet.open {
+        width: 360px;
+        right: 15px;
+        left: initial;
+    }
+}
