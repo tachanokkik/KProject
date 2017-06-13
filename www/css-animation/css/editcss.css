@@ -1,0 +1,30 @@
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+nav {
+    background-color: #2a56c6;
+}
+
+nav ul a {
+    padding: 0 10px;
+}
+
+a.brand-logo.left {
+	font-size: 22px;
+	margin-left: 60px;
+}
+
+img.circle {
+	width: 32px;
+	height: 32px;
+    vertical-align: middle;
+}
+a.button-collapse.btn-menu:focus {
+    transform: rotate(90deg);
+    transition: transform 1s;
+}

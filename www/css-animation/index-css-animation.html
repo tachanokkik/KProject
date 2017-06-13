@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+        <link type="text/css" rel="stylesheet" href="css/editcss.css" />
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- jquery ui-->
+        <!-- <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css"> -->
+    </head>
+
+    <body>
+        <!--Nav bar-->
+        <nav>
+            <ul id="slide-out" class="side-nav" style="transition: transform 1.5s; transition-delay: 1s;">
+                <li>
+                    <div class="userView">
+                        <div class="background">
+                            <img src="pic/background.png">
+                        </div>
+                        <a href="#!user">
+                            <img class="circle responsive-img" src="pic/user.jpg">
+                        </a>
+                        <a href="#!name"><span class="white-text name">Tachanok Reongnopawat</span></a>
+                        <a href="#!email"><span class="white-text email">tachanok@gmail.com</span></a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#!">
+                        <i class="material-icons">label</i>
+                        Family
+                    </a>
+                </li>
+                <li>
+                    <a href="#!">
+                        Work
+                    </a>
+                </li>
+                <li><div class="divider"></div></li>
+                <li><a class="subheader">Liftstyle</a></li>
+                <li>
+                    <a class="waves-effect" href="#!">
+                        Hobby
+                    </a>
+                </li>
+            </ul>
+
+            <div class="nav-wrapper">
+                <a href="#" data-activates="slide-out" class="button-collapse btn-menu" style="position: absolute;">
+                    <i class="material-icons btn-menu">menu</i>
+                </a>
+                <a href="#" class="brand-logo left">Google รายชื่อติดต่อ</a>
+                <ul class="right hide-on-small-only">
+                    <li>
+                        <a href="#">
+                            <i class="material-icons">apps</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" >
+                            <i class="material-icons">notifications</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" style="padding-right: 20px;">
+                            <img class="circle" src="pic/user.jpg">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- <div class="row" style="background-color: white; padding: 20px;">
+            <input type="text" name="date" id="date" placeholder="Date">
+        </div> -->
+        <div class="row" style="background-color: white; padding: 20px;">
+            <input type="text" class="datepicker" placeholder="Date">
+        </div>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <!--Import jquery ui-->
+        <!-- <script src="jquery-ui-1.12.1.custom/external/jquery/jquery.js" type="text/javascript"></script>
+        <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js" type="text/javascript"></script>
+        <script src="jquery-ui-1.12.1.custom/jquery-ui.js" type="text/javascript"></script> -->
+        <!--Import jQuery before materialize.js-->
+
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/materialize.js"></script>
+        <script type="text/javascript" src="js/editjs.js"></script>
+
+        <!-- <script>
+            $(function() {
+                $("#date").datepicker({
+                    dateFormat: "dd/mm/yy"
+                });
+            });
+        </script> -->
+    </body>
+</html>
