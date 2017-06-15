@@ -6823,7 +6823,7 @@ DatePicker.prototype.formats = (function() {
 
             // If there's a string, then the length is always 4.
             // Otherwise return the selected year.
-            return string ? 4 : (parseInt(dateObject.year)+543).toString()
+            return string ? 4 : dateObject.year
         },
 
         // Create an array by splitting the formatting string passed.
@@ -7261,7 +7261,7 @@ DatePicker.prototype.nodes = function( isOpen ) {
 
             // Materialize modified
             if (override == "raw")
-                return _.node( 'div', (focusedYear+543) )
+                return _.node( 'div', (focusedYear) )
 
             // Otherwise just return the year focused
             return _.node( 'div', focusedYear, settings.klass.year )
@@ -7459,7 +7459,7 @@ DatePicker.defaults = (function( prefix ) {
 			'กรกฎาคม','สิงหาคม','กันยายน','ตุลาคม','พฤศจิกายน','ธันวาคม' ], // Names of months for drop-down and formatting
 		monthsShort: [ 'ม.ค.', 'ก.พ.', 'มี.ค.', 'เม.ย.', 'พ.ค.', 'มิ.ย.', 'ก.ค.', 'ส.ค.', 'ก.ย.', 'ต.ค.', 'พ.ย.', 'ธ.ค.' ], // For formatting
 		weekdaysFull: [ 'อาทิตย์', 'จันทร์', 'อังคาร', 'พุธ', 'พฤหัสบดี', 'ศุกร์', 'เสาร์' ], // For formatting
-		weekdaysShort [ 'อา','จ','อ','พ','พฤ','ศ','ส' ], // For formatting
+		weekdaysShort: [ 'อา','จ','อ','พ','พฤ','ศ','ส' ], // For formatting
 		weekdaysLetter: [ 'อา','จ','อ','พ','พฤ','ศ','ส' ], // Column headings for days starting at Sunday
 
         // Materialize modified
