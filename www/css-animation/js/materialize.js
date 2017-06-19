@@ -6823,7 +6823,7 @@ DatePicker.prototype.formats = (function() {
 
             // If there's a string, then the length is always 4.
             // Otherwise return the selected year.
-            return string ? 4 : dateObject.year
+            return string ? 4 : (dateObject.year+543)
         },
 
         // Create an array by splitting the formatting string passed.
@@ -7245,7 +7245,7 @@ DatePicker.prototype.nodes = function( isOpen ) {
                                 return [
 
                                     // The looped year and no classes.
-                                    loopedYear, 0,
+                                    (loopedYear+543), 0,
 
                                     // Set the value and selected index.
                                     'value=' + loopedYear + ( focusedYear == loopedYear ? ' selected' : '' )
@@ -7261,7 +7261,7 @@ DatePicker.prototype.nodes = function( isOpen ) {
 
             // Materialize modified
             if (override == "raw")
-                return _.node( 'div', (focusedYear) )
+                return _.node( 'div', (focusedYear+543) )
 
             // Otherwise just return the year focused
             return _.node( 'div', focusedYear, settings.klass.year )

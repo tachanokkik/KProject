@@ -24,7 +24,11 @@ img.circle {
 	height: 32px;
     vertical-align: middle;
 }
-a.button-collapse.btn-menu:focus {
+a.button-collapse:focus {
+    transform: rotate(90deg);
+    transition: transform 1s;
+}
+a.btn-a:focus {
     transform: rotate(90deg);
     transition: transform 1s;
 }
